@@ -10,7 +10,7 @@ adj_list={
     "h":[],
     "i":[],
     }
-visited=[]
+visited=[]  
 queue=[]
 top=[]
 def bfs(visited,graph,node):
