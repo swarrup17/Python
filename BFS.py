@@ -22,8 +22,7 @@ def bfs(visited,graph,node):
         for neighbour in graph[m]:
             if neighbour not in visited:
                 visited.append(neighbour)
-                queue.append(neighbour)
-
+                queue.append(neighbour) 
     print("traversed output =",top)
 node=input("enter the node from where you want to traverse =")
 bfs(visited,adj_list,node)
